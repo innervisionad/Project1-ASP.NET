@@ -1,0 +1,105 @@
+<<<<<<< HEAD
+﻿body{
+    opacity:0.8;
+    background-color: #8fb4fb;
+}
+
+.jumbotron{
+    text-align:center;
+    font-family:'Tillana', cursive;
+    position:fixed;
+    background-image:url(images/banner.jpg);
+    width:105%; /* need to check for a better way to fix this problem */  
+    height:25%;
+    background-repeat:round no-repeat;
+    border-bottom:solid 5px #1f6bfe;
+    z-index:2;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+    border-radius: 7px;
+    margin: 0 auto;
+    position: relative;
+    top: 335px;
+    z-index:1;
+    box-shadow:rgba(0, 0, 0, 0.5) 10px 10px 10px;
+}
+
+.informationBox{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ButtonEncrypt{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+    
+}
+
+.ROT13Image {
+    
+    position:relative;
+    left:200px;
+    top:50px;
+    margin-bottom:50px;
+    border: double 10px #8fb4fb;
+    box-shadow:rgba(0, 0, 0, .5) 5px 5px 5px;
+}
+=======
+﻿
+body{
+     font-family: 'Cinzel Decorative', cursive;
+     font-weight: bold;
+     background-image:url('background imagev2.jpg');
+     background-repeat:round;
+}
+.bodyBack {
+    opacity:0.85;
+    background-color:antiquewhite; 
+     font-family: 'Cinzel Decorative', cursive;
+}
+
+.jumbotron.banner{
+    text-align: center;
+    text-align: center;
+    border-bottom: solid 5px #94c7c7; 
+    background-image:url('Tile transparent.jpg');
+}
+
+.textLabel{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.col-sm-6.textBoxInfo{
+    border:solid 2px #e19f05;
+    box-shadow:rgba(0,0,0,0.5) 5px 5px 5px;
+    border-radius:5px;
+    background-image:url(TextBoxImage.jpg);
+    background-repeat:round;
+    height:150px;
+    font-family: 'Oswald', sans-serif;   
+}
+
+.inputBox{
+   box-shadow:rgba(0,0,0,0.5) 5px 5px 5px;
+   border-radius:2px;
+}
+
+
+.btn{
+    margin-top:20px;
+    margin-bottom:20px;
+    border:solid 1px black;
+    box-shadow:rgba(0,0,0,0.50) 5px 5px 5px;
+    background-image:url(parchmentv2.jpg);
+    font-weight: bolder;
+    background-repeat:space;
+}
+.btn:hover{  
+       box-shadow:rgba(0,0,0,0.25) 2px 2px 2px;
+}
+
+>>>>>>> origin/master
